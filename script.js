@@ -73,6 +73,7 @@ function interlockingInput(num){
 // カラーコードをクリップボードにコピーする。
 function copyColorCode() {
     navigator.clipboard.writeText(colorCode);
+    alert("Copied color code!!\n" + colorCode);
 }
 // 関数管理。
 function manageColors(){
