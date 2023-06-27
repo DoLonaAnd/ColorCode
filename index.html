@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Color Code</title>
+        <link rel = "icon" href = "">
+        <link rel = "stylesheet" href = "./style.css">
+    </head>
+    <body>
+        <h1>Color Code</h1>
+        <div id = "main">
+            <ul>
+                <li>
+                    <input type = "range" id = "red" min = "0" max = "255" value = "0"><span>R: </span><input type = "number" id = "red_num" class = "num" min = "0" max = "255"  value = "0">
+                    <li>
+                        <input type = "range" id = "green" min = "0" max = "255" value = "0"><span>G: </span><input type = "number" id = "green_num" class = "num" min = "0" max = "255"  value = "0">
+                    </li>
+                    <li>
+                        <input type = "range" id = "blue" min = "0" max = "255" value = "0"><span>B: </span><input type = "number" id = "blue_num" class = "num" min = "0" max = "255"  value = "0">
+                    </li>
+                    <li>
+                        <input type = "range" id = "transparent" min = "0" max = "255" value = "255"><span>T: </span><input type = "number" id = "transparent_num" class = "num" min = "0" max = "255"  value = "255">
+                    </li>
+                </ul>
+            <ul>
+                <li class = "inline">
+                    <span id = "color_code">#000000</span>
+                </li>
+                <li class = "inline">
+                    <button onclick="copyColorCode()" id = "copy">Copy!!</button>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <script src = "./script.js">
+    </script>
+</html>

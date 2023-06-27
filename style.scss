@@ -1,0 +1,111 @@
+body {
+    font-size: 20px;
+    #main {
+        border-color: #393339;
+        border-radius: 10px;
+        border: solid 1.0px;
+        min-width: 30%;
+        display: block;
+        text-align: center;
+    }
+    h1 {
+        background-color: white;
+        text-align: center;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    input {
+    min-width: 100px;
+    width: 15%;
+    }
+
+    ul {
+        min-width: 125px;
+        text-align: center;
+    }
+
+    .num {
+        min-width: 5.0em;
+        width: 5.0em;
+        display: inline-block;
+        font-size: 20px;
+        border-color: transparent;
+    }
+
+    .inline {
+        display: inline-block;
+    }
+
+    #color_code {
+        display: inline-block;
+        width: 8.0em;
+        font-size: 25px;
+        -webkit-text-stroke: 1px black;
+        text-stroke: 1px black;
+        color: white;
+        background-color: black;
+    }
+
+    #copy {
+        background-color: #22aa22;
+        color: white;
+        border-radius: 10px;
+        border-color: transparent;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 470px) {
+    body{
+        font-size: 10px;
+        #main {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        input {
+            min-width: 50px;
+            width: 15%;
+        }
+        ul {
+            min-width: 75px;
+            text-align: center;
+        }
+        .num {
+            min-width: 1.0em;
+            width: 4.0em;
+            display: inline-block;
+            font-size: 20px;
+            border-color: transparent;
+        }
+        #color_code {
+            display: inline-block;
+            width: 5.0em;
+            font-size: 10px;
+            -webkit-text-stroke: 1px black;
+            text-stroke: 1px black;
+            color: white;
+            background-color: black;
+        }
+        #copy {
+            background-color: #22aa22;
+            color: white;
+            border-radius: 10px;
+            border-color: transparent;
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    #main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width: 800px) {
+    #main {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}

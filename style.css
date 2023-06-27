@@ -1,0 +1,105 @@
+body {
+  font-size: 20px;
+}
+body #main {
+  border-color: #393339;
+  border-radius: 10px;
+  border: solid 1px;
+  min-width: 30%;
+  display: block;
+  text-align: center;
+}
+body h1 {
+  background-color: white;
+  text-align: center;
+}
+body li {
+  list-style-type: none;
+}
+body input {
+  min-width: 100px;
+  width: 15%;
+}
+body ul {
+  min-width: 125px;
+  text-align: center;
+}
+body .num {
+  min-width: 5em;
+  width: 5em;
+  display: inline-block;
+  font-size: 20px;
+  border-color: transparent;
+}
+body .inline {
+  display: inline-block;
+}
+body #color_code {
+  display: inline-block;
+  width: 8em;
+  font-size: 25px;
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+  color: white;
+  background-color: black;
+}
+body #copy {
+  background-color: #22aa22;
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 470px) {
+  body {
+    font-size: 10px;
+  }
+  body #main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  body input {
+    min-width: 50px;
+    width: 15%;
+  }
+  body ul {
+    min-width: 75px;
+    text-align: center;
+  }
+  body .num {
+    min-width: 1em;
+    width: 4em;
+    display: inline-block;
+    font-size: 20px;
+    border-color: transparent;
+  }
+  body #color_code {
+    display: inline-block;
+    width: 5em;
+    font-size: 10px;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+    color: white;
+    background-color: black;
+  }
+  body #copy {
+    background-color: #22aa22;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #main {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}/*# sourceMappingURL=style.css.map */
